@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559B896825B3E11700ABBB03 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B896725B3E11700ABBB03 /* Tests_iOS.swift */; };
+		559B897325B3E11700ABBB03 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B897225B3E11700ABBB03 /* Tests_macOS.swift */; };
+		559B897525B3E11700ABBB03 /* git_in_the_3dApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B894C25B3E11700ABBB03 /* git_in_the_3dApp.swift */; };
+		559B897625B3E11700ABBB03 /* git_in_the_3dApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B894C25B3E11700ABBB03 /* git_in_the_3dApp.swift */; };
+		559B897725B3E11700ABBB03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B894D25B3E11700ABBB03 /* ContentView.swift */; };
+		559B897825B3E11700ABBB03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B894D25B3E11700ABBB03 /* ContentView.swift */; };
+		559B897925B3E11700ABBB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559B894E25B3E11700ABBB03 /* Assets.xcassets */; };
+		559B897A25B3E11700ABBB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559B894E25B3E11700ABBB03 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		559B896425B3E11700ABBB03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559B894725B3E11700ABBB03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559B895225B3E11700ABBB03;
+			remoteInfo = "git-in-the-3d (iOS)";
+		};
+		559B896F25B3E11700ABBB03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559B894725B3E11700ABBB03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559B895A25B3E11700ABBB03;
+			remoteInfo = "git-in-the-3d (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		559B894C25B3E11700ABBB03 /* git_in_the_3dApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = git_in_the_3dApp.swift; sourceTree = "<group>"; };
+		559B894D25B3E11700ABBB03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		559B894E25B3E11700ABBB03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		559B895325B3E11700ABBB03 /* git-in-the-3d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git-in-the-3d.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559B895625B3E11700ABBB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559B895B25B3E11700ABBB03 /* git-in-the-3d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git-in-the-3d.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559B895D25B3E11700ABBB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559B895E25B3E11700ABBB03 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		559B896325B3E11700ABBB03 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559B896725B3E11700ABBB03 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		559B896925B3E11700ABBB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559B896E25B3E11700ABBB03 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559B897225B3E11700ABBB03 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		559B897425B3E11700ABBB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559B895025B3E11700ABBB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559B895825B3E11700ABBB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559B896025B3E11700ABBB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559B896B25B3E11700ABBB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		559B894625B3E11700ABBB03 = {
+			isa = PBXGroup;
+			children = (
+				559B894B25B3E11700ABBB03 /* Shared */,
+				559B895525B3E11700ABBB03 /* iOS */,
+				559B895C25B3E11700ABBB03 /* macOS */,
+				559B896625B3E11700ABBB03 /* Tests iOS */,
+				559B897125B3E11700ABBB03 /* Tests macOS */,
+				559B895425B3E11700ABBB03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		559B894B25B3E11700ABBB03 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				559B894C25B3E11700ABBB03 /* git_in_the_3dApp.swift */,
+				559B894D25B3E11700ABBB03 /* ContentView.swift */,
+				559B894E25B3E11700ABBB03 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		559B895425B3E11700ABBB03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559B895325B3E11700ABBB03 /* git-in-the-3d.app */,
+				559B895B25B3E11700ABBB03 /* git-in-the-3d.app */,
+				559B896325B3E11700ABBB03 /* Tests iOS.xctest */,
+				559B896E25B3E11700ABBB03 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559B895525B3E11700ABBB03 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				559B895625B3E11700ABBB03 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		559B895C25B3E11700ABBB03 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				559B895D25B3E11700ABBB03 /* Info.plist */,
+				559B895E25B3E11700ABBB03 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		559B896625B3E11700ABBB03 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				559B896725B3E11700ABBB03 /* Tests_iOS.swift */,
+				559B896925B3E11700ABBB03 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		559B897125B3E11700ABBB03 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				559B897225B3E11700ABBB03 /* Tests_macOS.swift */,
+				559B897425B3E11700ABBB03 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559B895225B3E11700ABBB03 /* git-in-the-3d (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559B897D25B3E11700ABBB03 /* Build configuration list for PBXNativeTarget "git-in-the-3d (iOS)" */;
+			buildPhases = (
+				559B894F25B3E11700ABBB03 /* Sources */,
+				559B895025B3E11700ABBB03 /* Frameworks */,
+				559B895125B3E11700ABBB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "git-in-the-3d (iOS)";
+			productName = "git-in-the-3d (iOS)";
+			productReference = 559B895325B3E11700ABBB03 /* git-in-the-3d.app */;
+			productType = "com.apple.product-type.application";
+		};
+		559B895A25B3E11700ABBB03 /* git-in-the-3d (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559B898025B3E11700ABBB03 /* Build configuration list for PBXNativeTarget "git-in-the-3d (macOS)" */;
+			buildPhases = (
+				559B895725B3E11700ABBB03 /* Sources */,
+				559B895825B3E11700ABBB03 /* Frameworks */,
+				559B895925B3E11700ABBB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "git-in-the-3d (macOS)";
+			productName = "git-in-the-3d (macOS)";
+			productReference = 559B895B25B3E11700ABBB03 /* git-in-the-3d.app */;
+			productType = "com.apple.product-type.application";
+		};
+		559B896225B3E11700ABBB03 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559B898325B3E11700ABBB03 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				559B895F25B3E11700ABBB03 /* Sources */,
+				559B896025B3E11700ABBB03 /* Frameworks */,
+				559B896125B3E11700ABBB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559B896525B3E11700ABBB03 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 559B896325B3E11700ABBB03 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		559B896D25B3E11700ABBB03 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559B898625B3E11700ABBB03 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				559B896A25B3E11700ABBB03 /* Sources */,
+				559B896B25B3E11700ABBB03 /* Frameworks */,
+				559B896C25B3E11700ABBB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559B897025B3E11700ABBB03 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 559B896E25B3E11700ABBB03 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559B894725B3E11700ABBB03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					559B895225B3E11700ABBB03 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					559B895A25B3E11700ABBB03 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					559B896225B3E11700ABBB03 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 559B895225B3E11700ABBB03;
+					};
+					559B896D25B3E11700ABBB03 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 559B895A25B3E11700ABBB03;
+					};
+				};
+			};
+			buildConfigurationList = 559B894A25B3E11700ABBB03 /* Build configuration list for PBXProject "git-in-the-3d" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 559B894625B3E11700ABBB03;
+			productRefGroup = 559B895425B3E11700ABBB03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559B895225B3E11700ABBB03 /* git-in-the-3d (iOS) */,
+				559B895A25B3E11700ABBB03 /* git-in-the-3d (macOS) */,
+				559B896225B3E11700ABBB03 /* Tests iOS */,
+				559B896D25B3E11700ABBB03 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559B895125B3E11700ABBB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559B897925B3E11700ABBB03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559B895925B3E11700ABBB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559B897A25B3E11700ABBB03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559B896125B3E11700ABBB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559B896C25B3E11700ABBB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559B894F25B3E11700ABBB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559B897725B3E11700ABBB03 /* ContentView.swift in Sources */,
+				559B897525B3E11700ABBB03 /* git_in_the_3dApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559B895725B3E11700ABBB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559B897825B3E11700ABBB03 /* ContentView.swift in Sources */,
+				559B897625B3E11700ABBB03 /* git_in_the_3dApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559B895F25B3E11700ABBB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559B896825B3E11700ABBB03 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559B896A25B3E11700ABBB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559B897325B3E11700ABBB03 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		559B896525B3E11700ABBB03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559B895225B3E11700ABBB03 /* git-in-the-3d (iOS) */;
+			targetProxy = 559B896425B3E11700ABBB03 /* PBXContainerItemProxy */;
+		};
+		559B897025B3E11700ABBB03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559B895A25B3E11700ABBB03 /* git-in-the-3d (macOS) */;
+			targetProxy = 559B896F25B3E11700ABBB03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		559B897B25B3E11700ABBB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		559B897C25B3E11700ABBB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		559B897E25B3E11700ABBB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "htn2020.git-in-the-3d";
+				PRODUCT_NAME = "git-in-the-3d";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		559B897F25B3E11700ABBB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "htn2020.git-in-the-3d";
+				PRODUCT_NAME = "git-in-the-3d";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559B898125B3E11700ABBB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "htn2020.git-in-the-3d";
+				PRODUCT_NAME = "git-in-the-3d";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		559B898225B3E11700ABBB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "htn2020.git-in-the-3d";
+				PRODUCT_NAME = "git-in-the-3d";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		559B898425B3E11700ABBB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "htn2020.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "git-in-the-3d (iOS)";
+			};
+			name = Debug;
+		};
+		559B898525B3E11700ABBB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "htn2020.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "git-in-the-3d (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559B898725B3E11700ABBB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "htn2020.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "git-in-the-3d (macOS)";
+			};
+			name = Debug;
+		};
+		559B898825B3E11700ABBB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "htn2020.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "git-in-the-3d (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559B894A25B3E11700ABBB03 /* Build configuration list for PBXProject "git-in-the-3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559B897B25B3E11700ABBB03 /* Debug */,
+				559B897C25B3E11700ABBB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559B897D25B3E11700ABBB03 /* Build configuration list for PBXNativeTarget "git-in-the-3d (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559B897E25B3E11700ABBB03 /* Debug */,
+				559B897F25B3E11700ABBB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559B898025B3E11700ABBB03 /* Build configuration list for PBXNativeTarget "git-in-the-3d (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559B898125B3E11700ABBB03 /* Debug */,
+				559B898225B3E11700ABBB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559B898325B3E11700ABBB03 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559B898425B3E11700ABBB03 /* Debug */,
+				559B898525B3E11700ABBB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559B898625B3E11700ABBB03 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559B898725B3E11700ABBB03 /* Debug */,
+				559B898825B3E11700ABBB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 559B894725B3E11700ABBB03 /* Project object */;
+}
