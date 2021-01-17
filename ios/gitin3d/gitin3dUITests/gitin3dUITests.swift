@@ -1,13 +1,13 @@
 //
-//  Tests_macOS.swift
-//  Tests macOS
+//  gitin3dUITests.swift
+//  gitin3dUITests
 //
-//  Created by Shahbaz Momi on 2021-01-16.
+//  Created by Shehryar Assad on 2021-01-16.
 //
 
 import XCTest
 
-class Tests_macOS: XCTestCase {
+class gitin3dUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
