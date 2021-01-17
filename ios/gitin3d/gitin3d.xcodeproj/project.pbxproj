@@ -15,6 +15,11 @@
 		559B89E025B3E11700ABBB03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559B89DE25B3E11700ABBB03 /* LaunchScreen.storyboard */; };
 		559B89EB25B3E11700ABBB03 /* gitin3dTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B89EA25B3E11700ABBB03 /* gitin3dTests.swift */; };
 		559B89F625B3E11700ABBB03 /* gitin3dUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B89F525B3E11700ABBB03 /* gitin3dUITests.swift */; };
+		559B8A0725B3E11700ABBB03 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B8A0625B3E11700ABBB03 /* Commit.swift */; };
+		559B8A0D25B3E11700ABBB03 /* CommitCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B8A0C25B3E11700ABBB03 /* CommitCalculator.swift */; };
+		559B8A1225B3E11700ABBB03 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B8A1125B3E11700ABBB03 /* DataManager.swift */; };
+		559B8A1725B3E11700ABBB03 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B8A1625B3E11700ABBB03 /* Project.swift */; };
+		559B8A1C25B3E11700ABBB03 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B8A1B25B3E11700ABBB03 /* Tag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		559B89F125B3E11700ABBB03 /* gitin3dUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitin3dUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		559B89F525B3E11700ABBB03 /* gitin3dUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitin3dUITests.swift; sourceTree = "<group>"; };
 		559B89F725B3E11700ABBB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559B8A0625B3E11700ABBB03 /* Commit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
+		559B8A0C25B3E11700ABBB03 /* CommitCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitCalculator.swift; sourceTree = "<group>"; };
+		559B8A1125B3E11700ABBB03 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		559B8A1625B3E11700ABBB03 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		559B8A1B25B3E11700ABBB03 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		559B89D225B3E11700ABBB03 /* gitin3d */ = {
 			isa = PBXGroup;
 			children = (
+				559B8A0B25B3E11700ABBB03 /* Models */,
 				559B89D325B3E11700ABBB03 /* AppDelegate.swift */,
 				559B89D525B3E11700ABBB03 /* SceneDelegate.swift */,
 				559B89D725B3E11700ABBB03 /* ViewController.swift */,
@@ -126,6 +137,18 @@
 				559B89F725B3E11700ABBB03 /* Info.plist */,
 			);
 			path = gitin3dUITests;
+			sourceTree = "<group>";
+		};
+		559B8A0B25B3E11700ABBB03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				559B8A0625B3E11700ABBB03 /* Commit.swift */,
+				559B8A0C25B3E11700ABBB03 /* CommitCalculator.swift */,
+				559B8A1125B3E11700ABBB03 /* DataManager.swift */,
+				559B8A1625B3E11700ABBB03 /* Project.swift */,
+				559B8A1B25B3E11700ABBB03 /* Tag.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559B8A1C25B3E11700ABBB03 /* Tag.swift in Sources */,
+				559B8A0725B3E11700ABBB03 /* Commit.swift in Sources */,
+				559B8A1225B3E11700ABBB03 /* DataManager.swift in Sources */,
+				559B8A0D25B3E11700ABBB03 /* CommitCalculator.swift in Sources */,
 				559B89D825B3E11700ABBB03 /* ViewController.swift in Sources */,
 				559B89D425B3E11700ABBB03 /* AppDelegate.swift in Sources */,
+				559B8A1725B3E11700ABBB03 /* Project.swift in Sources */,
 				559B89D625B3E11700ABBB03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
